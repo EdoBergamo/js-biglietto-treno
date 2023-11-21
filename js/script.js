@@ -14,4 +14,4 @@ if (age < 18) {
 let discounted_price = price - discount;
 
 // Mostro il risultato a video
-document.getElementById("prezzo").innerHTML = `Il costo del biglietto è ${discounted_price.toFixed()}`
+document.getElementById("prezzo").innerHTML = `Il costo del biglietto è ${discounted_price.toFixed(2)}`
